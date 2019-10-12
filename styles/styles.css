@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* End Pont *?
+
+/* Start Body */
+body {
+    background-color: whitesmoke;
+    color : Green;
+    font-family: Roboto,Helvetica, Arial, sans-serif;
+    font-size: 10;
+    Line-height:1em;
+    margin:0;  
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(228, 124, 124);
+    background-image: url(../images/hutan.jpg);
+    background-size: cover;
+}
+.bg-red {
+    background-color: rgb(136, 211, 207);  
+    
+}
+/* End Debug */
+
+/* Start Container */
+    .container{
+        margin: 10px auto;
+        overflow: auto;
+        width: 96%;
+    }
+    .container-full{
+        margin: 10px auto;
+        overflow: auto;
+        width: 100%;
+    }
+ /* End Container */
+
+/* Start Logo */
+    .logo {
+        width: 96%;
+        text-align: center;
+    }
+/* End Logo */
+
+/* Start menu primer */
+    .menu-primer ul {
+        background-color:black;
+        border-radius: 4px;
+        box-shadow:
+            0 3px 5px -1px rgba(0,0,0,.2),
+            0 6px 10px 0 rgba(0,0,0,.14),
+            0 1px 18px 0 rgba(0,0,0,.12);
+    }
+    .menu-primer li {
+        border-right: 1px solid red;
+        display: inline-block;
+    }
+    .menu-primer a {
+        color: #ffffff;
+        font-size: 23px;
+        display: inline-block;
+        letter-spacing: 1px;
+        padding:10px 20px;
+        text-transform: uppercase;
+    }
+    .menu-primer a:hover {
+        background-color: aliceblue
+    }
+    .menu-primer .active {
+        background-color: aqua;
+        color: #000;
+        text-decoration: none
+    }
+/* End menu primer */
+
+    /* start heading */
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400px; 
+        letter-spacing: 1px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 12px;
+    }
+    /* End heading */
+
+    /* start jumbotron */
+    .jumbotron {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding: 20px 0;
+    }
+    .jumbotron h1 {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+    .jumbotron h2 {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    .jumbotron h3 {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+    /* end jumbotron */
+
+    /*Start Main */
+    .main-home-one {
+        float: left;
+        width: 49%;
+        
+    }
+    .main-home-two {
+        float: right;
+        width: 49%;
+       
+    }
+    .main-home-one .box-isi,
+    .main-home-two .box-isi {
+        height: 96px;
+    }
+    /*End Main * /
+
+    /* Start Box */
+    .box-heading {
+        background-color: rgb(243, 243, 234);
+        border: 1px solid rgb(252, 250, 246);
+        border-radius: 3px 3px 0 0;
+        margin: 0;
+        padding: 20px 20px;
+        text-transform: uppercase;
+    }
+    .box-heading h4 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .box-isi {
+        background-color: #ffffff;
+        border: 1px solid #666666;
+        border-top: 0;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    /* End Box */
+
+    /* Start Menu Sekunder */
+    .menu-sekunder {
+        background-color: rgb(250, 244, 244);
+        border-bottom: 1px solid rgb(248, 246, 241);
+        border-top: 1px solid rgb(245, 241, 241);
+        overflow: auto;
+        padding: 20px 20px;
+    }
+    .menu-sekunder h4 {
+        font-size: 14px;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+    .menu-sekunder ul {
+        padding: 0;
+    }
+    .menu-sekunder li {
+        list-style: disc;
+    }
+    .menu-sekunder li a,
+    .menu-sekunder p {
+        font-size: 15px;
+    }
+    .menu-sekunder-one,
+    .menu-sekunder-two,
+    .menu-sekunder-three {
+        float: left;
+    }
+    .menu-sekunder-one {
+        width: 40%;
+    }
+    .menu-sekunder-two,
+    .menu-sekunder-three {
+        width: 30%;
+    }
+
+    /* Start Testimonial Table */
+    .testimonial {
+        border-left: 4px solid rgb(236, 236, 243);
+        margin-left: 0;
+        padding: 10px 25px;
+        width: 90%;
+    }
+    .testimonial-table th {
+        background-color: blanchedalmond;
+    }
+    .testimonial-table td {
+        text-align: center;
+    }
+
+    /* End Testimonial Table */
+
+    /* Start Layanan Table */
+    .layanan-table {
+        border: 1px solid rgb(248, 246, 241);
+        border-collapse: collapse;
+        margin: auto;
+        width: 90%
+    }
+    .layanan-table th {
+        background-color: antiquewhite;
+    }
+    .layanan-table td {
+        text-align: center;
+    }
+
+    /* End Layanan Table */
+
+    /* Start Form */
+    input [type="trxt"],
+    input [type="email"],
+    textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .input::placeholder,
+    text-area::placeholder {
+        color: blue; 
+        font-weight: 300;
+    }
+
+    input [type="submit"],
+    .button {
+        background-color: aqua;
+        background-image: linear-gradient(-180deg,rgb(239, 247, 247) 0%, orange 90%);
+        border: 1px solid blue (21, 31, 35, 0.2);
+        border-radius: 4px;
+        color: black !important;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 5px 0;
+        padding: 5px 10px;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    /* End Form */
+
+    /* Start Contact Form */
+    .contact-form div {
+        margin: 20px 0;
+    }
+    /* End Contact Form */
+     /* Start Menu Sekunder */
+     .menu-sekunder{
+         background-color: rgb(247, 242, 235);
+         border-bottom: 1px solid burlywood;
+         border-top: 1px solid red;
+         overflow: auto;
+         padding: 10px 0;
+     }
+
+     .menu-sekunder h4 {
+         font-size: 14px;
+         margin: 0 auto;
+         text-transform: uppercase;
+     }
+
+     .menu-sekunder ul {
+         padding: 0;
+     }
+
+     .menu-sekunder li {
+         list-style: disc;
+     }
+
+     .menu-sekunder li a,
+     .menu-sekunder p {
+         font-size: 15px;
+     }
+
+     .menu-sekunder-one,
+     .menu-sekunder-two,
+     .menu-sekunder-three {
+         float: left;
+     }
+     .menu-sekunder-one {
+         width: 40%;
+     }
+     .menu-sekunder-two
+     .menu-sekunder-three {
+         width: 30%;
+     }
+     .menu-sekunder li img {
+         vertical-align: middle;
+     }
+     /* End Menu Sekunder */
+    
+
